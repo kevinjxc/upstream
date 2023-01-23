@@ -1,0 +1,745 @@
+/*Sets Margins & Background Color*/
+body {
+    background-color: #F2F2F2;
+    margin: 2% 5% 2% 5%;
+    overflow-x: hidden;
+}
+
+/*Formats All Heading 1 Text*/
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: lighter;
+    color: #355BF2;
+    margin: 1.5rem 1.5rem 0.25rem 1.5rem;
+}
+
+/*Formats All Heading 2 Text*/
+h2 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: lighter;
+    font-family: Lexend Deca;
+}
+
+/*Formats All Heading 3 Text*/
+h3 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1.15rem;
+    font-weight: lighter;
+    font-family: Lexend Deca;
+}
+
+/*Formats All Heading 4 Text*/
+h4 {
+    text-align: center;
+    font-size: 1.15rem;
+    padding: none;
+    margin: 0rem;
+    font-weight: lighter;
+    font-family: Lexend Deca;
+}
+
+/*Formats All Heading 1 Text*/
+h5 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: Lexend;
+    font-weight: lighter;
+    color: #355BF2;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+/**Controls Scrollbar**/
+body::-webkit-scrollbar {
+    width: 18px;
+}
+
+/**Controls Scrollbar**/
+::-webkit-scrollbar-thumb {
+    background-color: #606060;
+    border-radius: 15px;
+    border: 5.5px solid transparent;
+    background-clip: content-box;
+}
+
+/**Controls Scrollbar**/
+::-webkit-scrollbar-track {
+    background-color: #C9C9C9;
+    border-radius: 15px;
+    border: 5.5px solid transparent;
+    background-clip: content-box;
+}
+
+/**Controls Scrollbar**/
+::-webkit-scrollbar-thumb:hover {
+    background-color: #909090;
+}
+
+/*Places Spaces Between Tabs of Navigation Bar*/
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/*Allows Overall Logo to Function in Navigation Bar*/
+.logoButton {
+    display: block;
+    margin-right: auto;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+    width: 25rem;
+}
+
+.logoImage {
+    width: 25rem;
+}
+
+/*Formats Menu Tabs in Navigation Bar*/
+.menu ul {
+    display: flex;
+    list-style: none;
+    color: #355BF2;
+    font-family: Lexend;
+    text-decoration: none;
+}
+
+/*Formats Menu Tabs in Navigation Bar*/
+.menu li {
+    padding: 2rem;
+    font-size: 1.25rem;
+}
+
+/*Makes Video Responsive*/
+.welcome {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 3rem;
+    border-radius: 0.75rem;
+}
+
+/*Allows Logo Icon to Function in Keywords Section*/
+.keywordImage {
+    width: 9rem;
+    height: 9rem;
+    padding: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Formats Keyword Box Formation*/
+.keywords {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+/*Formats Homework Box Formation*/
+.homeworkHelp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+/*Formats STREAM Box Formation*/
+.streamPrograms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+}
+
+/*Formats Image for Homework Help Section*/
+.homeworkImage {
+    border-radius: 0.75rem;
+    width: 39%;
+    display: block;
+    margin-right: auto;
+}
+
+/*Formats Image for Homework Help Section*/
+.steamImage {
+    border-radius: 0.75rem;
+    width: 39%;
+    display: block;
+    margin-left: auto;
+}
+
+/*Creates Boxes for Each Keyword*/
+.boxes {
+    height: 17.5rem;
+    width: 18rem;
+    color: #355BF2;
+    border-style: none;
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    background-color: #F2F2F2;
+}
+
+.homeworkBox {
+    height: 21rem;
+    width: 60%;
+    color: #355BF2;
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    background-color: #F2F2F2;
+}
+
+/*Styles & Positions Homework Help Button*/
+.homeworkBox .homeworkButton {
+    width: 17rem;
+    height: 2.4rem;
+    position: relative;
+    top: 7.5%;
+    left: 50%;
+    color: #F2F2F2;
+    background-color: #355BF2;
+    font-size: 1rem;
+    font-family: Lexend;
+    font-weight: lighter;
+    border: none;
+    border-radius: 0.5rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.streamBox {
+    height: 21rem;
+    width: 60%;
+    color: #355BF2;
+    margin-left: auto;
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    background-color: #F2F2F2;
+}
+
+/*Styles & Positions STREAM Sessions Button*/
+.streamBox .streamButton {
+    width: 17rem;
+    height: 2.4rem;
+    position: relative;
+    top: 7.5%;
+    left: 50%;
+    color: #F2F2F2;
+    background-color: #355BF2;
+    font-size: 1rem;
+    font-family: Lexend;
+    font-weight: lighter;
+    border: none;
+    border-radius: 0.5rem;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*Allows Logo Icon to Function at Footer*/
+.footerImage {
+    width: 7rem;
+    height: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    margin-top: 2rem;
+}
+
+/*Formats Links in Menu*/
+.menu a:link {
+    color: #355BF2;
+    text-decoration: none;
+}
+
+/*Formats Links in Menu After Visited*/
+.menu a:visited {
+    color: #355BF2;
+    text-decoration: none;
+}
+
+/*Formats Links in Menu After Hovered*/
+.menu a:hover {
+    color: #AEE155;
+    text-decoration: none;
+}
+
+/*Formats Links When Clicked*/
+.menu a:active {
+    color: #355BF2;
+    text-decoration: none;
+}
+
+/*Formats Links When Clicked*/
+.homeworkHelp .text:active {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Homework Help Button*/
+.homeworkHelp .text:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Homework Help Button*/
+.homeworkHelp .text:visited {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Homework Help Button*/
+.homeworkHelp .text:hover {
+    color: #AEE155;
+    text-decoration: none;
+}
+
+/*Formats Links in Homework Help Button*/
+.homeworkHelp .text:active {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in STREAM Button*/
+.streamPrograms .text:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Menu After STREAM Button*/
+.streamPrograms .text:visited {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Menu After STREAM Button*/
+.streamPrograms .text:hover {
+    color: #AEE155;
+    text-decoration: none;
+}
+
+/*Formats Links for STREAM Button*/
+.streamPrograms .text:active {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.application-widget {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 52rem;
+    background: #F2F2F2;
+    z-index: 0;
+}
+
+.contactForm {
+    width: 100%;
+    height: 52rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Formats Keyword Box Formation*/
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/*Creates Boxes for Each Contact Piece*/
+.contactBoxes {
+    height: 10rem;
+    width: 21rem;
+    color: #355BF2;
+    border-style: none;
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    background-color: #F2F2F2;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/*Allows Logo Icon to Function in Keywords Section*/
+.contactImage {
+    width: 5.25rem;
+    height: 5.25rem;
+    padding: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.streamHeader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+.streamFacts {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.streamText {
+    height: 17.25rem;
+    width: 49.25%;
+    color: #355BF2;
+    border-radius: 0.75rem;
+    background-color: #F2F2F2;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.surroundsServices {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicesImageRight {
+    border-radius: 0.75rem;
+    height: 22rem;
+    margin-bottom: 5rem;
+}
+
+.bottomButtons {
+    background-color: #355BF2;
+    border-radius: 0.75rem;
+    border-style: none;
+    width: 15rem;
+    height: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Lexend;
+}
+
+/*Formats Links in Buttons After Hovered*/
+.bottomButtons a:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Buttons After Hovered*/
+.bottomButtons a:visited {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Supporters Box*/
+.supporters {
+    width: 100%;
+    height: 16rem;
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    border-style: solid;
+    margin-bottom: 5rem;
+    padding: 5rem;
+}
+
+/*Formats Service Boxes*/
+.serveBoxes {
+    border-radius: 0.75rem;
+    border-color: #355BF2;
+    border-style: solid;
+    height: 15.5rem;
+    width: 25%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+/*Formats Service Buttons*/
+.serveButtons {
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: #355BF2;
+    font-family: Lexend Deca;
+    width: 45%;
+    height: 1.75rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+}
+
+/*Formats Links in Buttons After Hovered*/
+.serveButtons a:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*Formats Links in Buttons After Hovered*/
+.serveButtons a:visited {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 1.5625rem;
+    height: 0.188rem;
+    margin: 0.313rem auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #355BF2;
+    border-radius: 4rem;
+}
+
+/**Responsiveness Code**/
+@media (max-width: 1000px) {
+    .navigation {
+        flex-direction: column;
+    }
+
+    .logoButton {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: -3rem;
+        border: none;
+        appearance: none;
+        background-color: inherit;
+        width: 15rem;
+    }
+
+    .logoImage {
+        width: 15rem;
+    }
+
+    .menu {
+        margin-bottom: -2rem;
+    }
+
+    .welcome {
+        margin-bottom: 2rem;
+    }
+
+    .setOne {
+        margin-top: 5rem;
+    }
+
+    .setTwo {
+        margin-bottom: 5rem;
+    }
+
+    .homeworkHelp {
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 15rem;
+    }
+
+    .homeworkImage {
+        display: block;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 20rem;
+    }
+
+    .streamPrograms {
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 20rem;
+    }
+
+    .streamBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .steamImage {
+        display: block;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 10rem;
+        width: 20rem;
+    }
+
+    .surroundsServices {
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .servicesImageRight {
+        height: 100%;
+    }
+
+    .toFix {
+        margin-top: -3rem;
+    }
+
+    .streamHeader {
+        width: 100%;
+    }
+
+    .streamFacts {
+        flex-direction: column;
+    }
+
+    .streamText {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .shrinkMargin {
+        margin-top: -4rem;
+    }
+
+    .bottomButtons {
+        border-style: none;
+        width: 15rem;
+        height: 2.5rem;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Lexend;
+    }
+
+    .application-widget {
+        height: 65rem;
+    }
+}
+
+/**Responsiveness Code**/
+@media (max-width: 600px) {
+    .navigation {
+        flex-direction: row;
+        margin-bottom: 3rem;
+    }
+
+    .streamFacts {
+        flex-direction: column;
+    }
+
+    .logoButton {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .streamText {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-bottom: -4rem;
+    }
+
+    .homeworkButton {
+        margin-top: 2rem;
+    }
+
+    .streamButton {
+        margin-top: 2rem;
+    }
+
+    .streamBox {
+        margin-bottom: 10rem;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+    }
+
+    .contactForm {
+        height: 65rem;
+        width: 100%;
+    }
+
+    .application-widget {
+        width: 100%;
+        height: 70rem;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 10;
+        margin-top: 1.5rem;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(0.5rem) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-0.5rem) rotate(-45deg);
+    }
+
+    .menu {
+        position: fixed;
+        left: -100%;
+        top: 3.5rem;
+        gap: 0;
+        flex-direction: column;
+        background-color: #355BF2;
+        width: 100%;
+        text-align: right;
+        transition: 0.3s;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    /*Formats Links in Menu*/
+    .menu a:link {
+        color: #F2F2F2;
+        text-decoration: none;
+    }
+
+    /*Formats Links in Menu After Visited*/
+    .menu a:visited {
+        color: #F2F2F2;
+        text-decoration: none;
+    }
+
+    /*Formats Links in Menu After Hovered*/
+    .menu a:hover {
+        color: #AEE155;
+        text-decoration: none;
+    }
+
+    /*Formats Links When Clicked*/
+    .menu a:active {
+        color: #F2F2F2;
+        text-decoration: none;
+    }
+}
