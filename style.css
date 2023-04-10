@@ -513,7 +513,7 @@ body::-webkit-scrollbar {
 }
 
 /**Responsiveness Code**/
-@media (max-width: 1000px) {
+@media (max-width: 1275px) {
     .navigation {
         flex-direction: column;
     }
@@ -632,7 +632,7 @@ body::-webkit-scrollbar {
 }
 
 /**Responsiveness Code**/
-@media (max-width: 600px) {
+@media (max-width: 715px) {
     .navigation {
         flex-direction: row;
         margin-bottom: 3rem;
