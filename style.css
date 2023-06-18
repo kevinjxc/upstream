@@ -659,6 +659,13 @@ body::-webkit-scrollbar {
         margin-top: 2rem;
     }
 
+    .homeworkHelp {
+        flex-direction: column;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 30rem;
+    }
+
     .streamButton {
         margin-top: 2rem;
     }
