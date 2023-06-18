@@ -123,7 +123,7 @@ body::-webkit-scrollbar {
     width: 100%;
     margin: auto;
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     border-radius: 0.75rem;
 }
 
