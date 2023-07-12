@@ -28,7 +28,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 6000);
+    setTimeout(showSlides, 7500);
 }
 
 //Creates Variables to Count Slide Index
@@ -45,5 +45,5 @@ function showSlides2() {
     slideIndex2++;
     if (slideIndex2 > slides.length) {slideIndex2 = 1}
     slides[slideIndex2-1].style.display = "block";
-    setTimeout(showSlides2, 6000);
+    setTimeout(showSlides2, 7500);
 }
