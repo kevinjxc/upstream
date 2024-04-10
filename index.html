@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Tab Title & Icon-->
+        <title>UpSTREAM</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+
+        <!--Allows Responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Imports Lexend & Lexend Deca Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Overall Navigation Bar-->
+        <nav class="navigation">
+            <!--Logo & Title Button in Navigation Bar-->
+            <button class="logoButton">
+                <a href="index.html"><img class="logoImage" src="logoButton.png" alt="logo"><img></a>
+            </button>
+
+            <!--Displays Various Website Tabs in Navigation Bar-->
+            <div class="menu">
+                <ul>
+                    <li><a class="item" href="about.html">About</a></li>
+                    <li><a class="item" href="stream.html">STREAM</a></li>
+                    <li><a class="item" href="apply.html">Apply</a></li>
+                    <li><a class="item" href="volunteer.html">Volunteer</a></li>
+                    <li><a class="item" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--Creates Hamburger for Navigation Bar-->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <!--Creates Box About UpSTREAM-->
+        <div class="programsBox">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img class="homepageImages" src="about.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="homepageImages" src="sharing.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="homepageImages" src="behind.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides fade">
+                    <img class="homepageImages" src="coding.png" style="border-radius: 0.75rem;">
+                </div>
+            </div>
+            <div class="homeTextbox">
+                <h1>Welcome to UpSTREAM!</h1>
+                <h2 style="text-align: left; line-height: 1.9rem;">
+                    UpSTREAM teaches STREAM (Science, Technology, Robotics, Engineering, Arts, Mathematics) to Seattle students in grades 3-5. Our work is
+                    bridging resource gaps caused by disproportionate access to STREAM opportunities through accessible and culturally-relevant STREAM education.
+                    Founded by students driven by their ambition to contribute to their community,
+                    UpSTREAM offers three free STREAM programs: STREAM Labs, LiveSTREAMs, and Online Tutoring.
+                </h2>
+                <button class="boxButton" onclick="pageAbout()"><a class="text" href="about.html">Learn More About UpSTREAM</a></button>
+            </div>
+        </div>
+
+        <!--Creates Box About STREAM Programs-->
+        <div class="programsBox">
+            <div class="slideshow-container">
+                <div class="mySlides2 fade">
+                    <img class="homepageImages" src="review1.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides2 fade">
+                    <img class="homepageImages" src="presenting.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides2 fade">
+                    <img class="homepageImages" src="review2.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides2 fade">
+                    <img class="homepageImages" src="teaching.png" style="border-radius: 0.75rem;">
+                </div>
+            </div>
+            <div class="homeTextbox">
+                <h1>STREAM Workshops</h1>
+                <h2 style="text-align: left;">
+                    UpSTREAM provides free STREAM workshops for students in grades 3-5, including our seasonal in-person STREAM Labs and monthly online LiveSTREAMs.
+                    <ul>
+                        <li>Next LiveSTREAM: Motion & Energy, May 25 from 1 PM to 2 PM</li>
+                        <li>Next STREAM Lab: The Robotics Lab, June 24 from 12 PM to 3 PM</li>
+                    </ul>
+                    Students in these workshops engage in hands-on activities involving STREAM topics ranging from engineering to robotics in societal and cultural contexts.
+                </h2>
+                <button class="boxButton" onclick="pageApply()"><a class="text" href="apply.html">Apply for STREAM Workshops</a></button>
+            </div>
+        </div>
+
+        <!--Creates Box About Online Tutoring-->
+        <div class="programsBox">
+            <div class="slideshow-container">
+                <div class="mySlides3 fade">
+                    <img class="homepageImages" src="choose.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <img class="homepageImages" src="review3.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <img class="homepageImages" src="debate.png" style="border-radius: 0.75rem;">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <img class="homepageImages" src="review4.png" style="border-radius: 0.75rem;">
+                </div>
+            </div>
+            <div class="homeTextbox">
+                <h1>Online Tutoring</h1>
+                <h2 style="text-align: left;">
+                    UpSTREAM provides free online tutoring for students in grades 3-5. Online Tutoring allows students to supplement their academic performance.
+                    <ul>
+                        <li>Weekdays: After 4 PM for ELA or Mathematics</li>
+                        <li>Weekends: Weekends: After 9 AM for ELA or Mathematics</li>
+                    </ul>
+                    Students in this program engage in 1:1 sessions with a knowledgeable Seattle high school student, providing an excellent source of mentorship.
+                </h2>
+                <button class="boxButton" onclick="pageApply()"><a class="text" href="apply.html">Apply for Online Tutoring</a></button>
+            </div>
+        </div>
+
+        <!--Creates Website Footer-->
+        <div class="footer">
+            <img class="footerImage" src="logo.png" alt="logo" onclick="pageIndex()"><img>
+            <h4 style="color: #355BF2">© 2024 UpSTREAM Program</h4>
+        </div>
+
+        <!--Applies JavaScript-->
+        <script src="script.js"></script>
+    </body>
+</html>
