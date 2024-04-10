@@ -1,8 +1,11 @@
-<!DOCTYPE html>
+<?php
+  header("HTTP/1.0 404 Not Found");
+?>
+
 <html>
     <head>
         <!--Tab Title & Icon-->
-        <title>Resources | UpSTREAM</title>
+        <title>Page Not Found | UpSTREAM</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicon.png">
 
@@ -43,7 +46,7 @@
             </div>
         </nav>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Qv_OygKESLPcEqrQ?&autoplay=1&mute=1" frameborder="0" allow="autoplay"; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1 style="color: #355BF2; display: block; margin-left: auto; margin-right: auto;">Error: Page Not Found</h1>
 
         <!--Creates Website Footer-->
         <div class="footer">
