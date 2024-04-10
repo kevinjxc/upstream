@@ -86,7 +86,7 @@ function pageContact() {
 
 //Redirects to Home Page
 function pageIndex() {
-  window.location.href = "./index";
+  window.location.href = "https://www.upstreamprogram.org/";
 }
 
 //Redirects to Email
