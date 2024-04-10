@@ -66,27 +66,27 @@ function showSlides3() {
 
 //Redirects to About Page
 function pageAbout() {
-  window.location.href = "about.html";
+  window.location.href = "./about";
 }
 
 //Redirects to Apply Page
 function pageApply() {
-  window.location.href = "apply.html";
+  window.location.href = "./apply";
 }
 
 //Redirects to STREAM Page
 function pageSTREAM() {
-  window.location.href = "stream.html";
+  window.location.href = "./stream";
 }
 
 //Redirects to Contact Page
 function pageContact() {
-  window.location.href = "contact.html";
+  window.location.href = "./contact";
 }
 
 //Redirects to Home Page
 function pageIndex() {
-  window.location.href = "index.html";
+  window.location.href = "./index";
 }
 
 //Redirects to Email
