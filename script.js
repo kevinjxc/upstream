@@ -104,10 +104,12 @@ function pageLocation() {
   window.open("https://www.google.com/maps/place/Seattle,+WA");
 }
 
+//Checks for Safari
 function isSafari() {
   return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 }
 
+//Adds Indent to Safari
 if (isSafari()) {
   var indent1 = document.getElementById("indent1");
   indent1.innerHTML = "<br>";
