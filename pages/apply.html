@@ -2,9 +2,9 @@
 <html>
     <head>
         <!--Tab Title & Icon-->
-        <title>Volunteer | UpSTREAM</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <title>Apply | UpSTREAM</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/x-icon" href="../icons/favicon.png">
 
         <!--Allows Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,17 +21,17 @@
         <nav class="navigation">
             <!--Logo & Title Button in Navigation Bar-->
             <button class="logoButton">
-                <a href="index.html"><img class="logoImage" src="logoButton.png" alt="logo"><img></a>
+                <a href="https://www.upstreamprogram.org/"><img class="logoImage" src="../icons/logoButton.png" alt="logo"><img></a>
             </button>
 
             <!--Displays Various Website Tabs in Navigation Bar-->
             <div class="menu">
                 <ul>
-                    <li><a class="item" href="about.html">About</a></li>
-                    <li><a class="item" href="stream.html">STREAM</a></li>
-                    <li><a class="item" href="apply.html">Apply</a></li>
-                    <li><a class="item" href="volunteer.html">Volunteer</a></li>
-                    <li><a class="item" href="contact.html">Contact</a></li>
+                    <li><a class="item" href="./about">About</a></li>
+                    <li><a class="item" href="./stream">STREAM</a></li>
+                    <li><a class="item" href="./apply">Apply</a></li>
+                    <li><a class="item" href="./volunteer">Volunteer</a></li>
+                    <li><a class="item" href="./contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -43,15 +43,16 @@
             </div>
         </nav>
 
-        <!--Embeds Log-->
-        <iframe class="application-widget" src="https://docs.google.com/forms/d/e/1FAIpQLSdszL_yVOCF33luFL-gN-talxntTntiwdeuYC0IWwtbhrqVWg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <!--Embeds Application Form-->
+        <iframe class="application-widget" src="https://docs.google.com/forms/d/e/1FAIpQLSczmOFrY4u20IncGlNjnjL1sUpjDsO_1pKZW22Q-H2HLNuJRA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
         <!--Creates Website Footer-->
         <div class="footer">
-            <img class="footerImage" src="logo.png" alt="logo" onclick="pageIndex()"><img>
-            <h4 style="color: #355BF2">© 2026 UpSTREAM Program</h4>
+            <img class="footerImage" src="../icons/logo.png" alt="logo" onclick="pageIndex()"><img>
+            <h4 style="color: #355BF2">© <span id="year">2026</span> UpSTREAM Program</h4>
         </div>
 
         <!--Applies JavaScript-->
-        <script src="script.js"></script>
+        <script src="../js/script.js"></script>
     </body>
 </html>

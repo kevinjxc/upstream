@@ -120,3 +120,6 @@ if (isSafari()) {
   var indent3 = document.getElementById("indent3");
   indent3.innerHTML = "<br>";
 }
+
+//Automatically Updates Year in Footer
+document.getElementById("year").textContent = new Date().getFullYear();
