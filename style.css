@@ -478,10 +478,6 @@ body::-webkit-scrollbar {
         margin-bottom: 1.5rem;
     }
 
-    .toFix {
-        margin-top: -3rem;
-    }
-
     .streamHeader {
         width: 100%;
     }
@@ -499,7 +495,7 @@ body::-webkit-scrollbar {
     }
 
     .shrinkMargin {
-        margin-top: 0;
+        margin-top: -3rem;
         margin-bottom: 2.5rem;
     }
 
