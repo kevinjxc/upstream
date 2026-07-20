@@ -478,6 +478,10 @@ body::-webkit-scrollbar {
         margin-bottom: 1.5rem;
     }
 
+    .toFix {
+        margin-top: -3rem;
+    }
+
     .streamHeader {
         width: 100%;
     }
