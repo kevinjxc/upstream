@@ -468,11 +468,14 @@ body::-webkit-scrollbar {
 
     .surroundingBox {
         flex-direction: column;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+        gap: 1.5rem;
     }
 
     .leftImage {
-        height: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.5rem;
     }
 
     .toFix {
@@ -496,8 +499,8 @@ body::-webkit-scrollbar {
     }
 
     .shrinkMargin {
-        margin-top: -4rem;
-        margin-bottom: 5rem;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
     }
 
     .surroundingBox .boxButton {
