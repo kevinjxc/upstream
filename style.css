@@ -639,13 +639,4 @@ body::-webkit-scrollbar {
     .homepageImages {
         width: 100%;
     }
-
-    .programsBox {
-        margin-bottom: 10rem;
-    }
-
-    .programsBox .boxButton {
-        margin-top: 0.5rem;
-        margin-bottom: 3rem;
-    }
 }
