@@ -1,3 +1,67 @@
+/*Shared hover animation for buttons and interactive elements*/
+button,
+.logoButton,
+.footerImage,
+.menu a {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, background-color 0.25s ease;
+}
+
+button:hover,
+button:focus-visible,
+.homeTextbox .boxButton:hover,
+.homeTextbox .boxButton:focus-visible,
+.surroundingBox .boxButton:hover,
+.surroundingBox .boxButton:focus-visible {
+    transform: translateY(-0.15rem) scale(1.02);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 73, 148, 0.16);
+}
+
+.logoButton:hover,
+.logoButton:focus-visible,
+.footerImage:hover,
+.footerImage:focus-visible {
+    transform: translateY(-0.08rem) scale(1.01);
+    box-shadow: none;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 0.25rem 0.35rem;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
+    border: none;
+}
+
+.menu li:hover .item,
+.menu li:focus-within .item,
+.menu a:hover,
+.menu a:focus-visible {
+    transform: translateY(-0.12rem) scale(1.01);
+    box-shadow: none;
+    color: #AEE155;
+    background-color: transparent;
+    outline: none;
+}
+
+.menu a::selection {
+    background: transparent;
+    color: inherit;
+}
+
+.menu a:focus,
+.menu a:focus-visible,
+.menu a:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
 /*Sets Margins & Background Color*/
 body {
     background-color: #F2F2F2;
@@ -174,6 +238,12 @@ body::-webkit-scrollbar {
     border-radius: 0.5rem;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+.homeTextbox .boxButton:hover,
+.homeTextbox .boxButton:focus-visible {
+    transform: translate(-50%, -50%) translateY(-0.15rem) scale(1.02);
+    -ms-transform: translate(-50%, -50%) translateY(-0.15rem) scale(1.02);
 }
 
 /*Allows Logo Icon to Function at Footer*/
