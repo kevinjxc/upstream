@@ -1,4 +1,4 @@
-/*Shared hover animation for buttons and interactive elements*/
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 button,
 .logoButton,
 .footerImage,
@@ -6,6 +6,7 @@ button,
     transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, background-color 0.25s ease;
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 button:hover,
 button:focus-visible,
 .homeTextbox .boxButton:hover,
@@ -16,6 +17,7 @@ button:focus-visible,
     box-shadow: 0 0.25rem 0.5rem rgba(0, 73, 148, 0.16);
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 .logoButton:hover,
 .logoButton:focus-visible,
 .footerImage:hover,
@@ -24,6 +26,7 @@ button:focus-visible,
     box-shadow: none;
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 .menu a {
     display: inline-block;
     padding: 0.25rem 0.35rem;
@@ -37,6 +40,7 @@ button:focus-visible,
     border: none;
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 .menu li:hover .item,
 .menu li:focus-within .item,
 .menu a:hover,
@@ -48,11 +52,13 @@ button:focus-visible,
     outline: none;
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 .menu a::selection {
     background: transparent;
     color: inherit;
 }
 
+/*Shared Hover Animation for Buttons and Interactive Elements*/
 .menu a:focus,
 .menu a:focus-visible,
 .menu a:active {
