@@ -122,4 +122,6 @@ if (isSafari()) {
 }
 
 //Automatically Updates Year in Footer
-document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll('.current-year').forEach((yearElement) => {
+    yearElement.textContent = new Date().getFullYear();
+});
