@@ -3,16 +3,18 @@ const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu");
 
 //Event Listener for Hamburger Created
-hamburger.addEventListener("click", () => {
+if (hamburger && menu) {
+  hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     menu.classList.toggle("active");
-})
+  });
 
-//Lists Items in Hamburger
-document.querySelectorAll(".item").forEach(n => n.addEventListener("click", () => {
+  //Lists Items in Hamburger
+  document.querySelectorAll(".item").forEach((n) => n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     menu.classList.remove("active");
-}))
+  }));
+}
 
 //Creates Variables to Count Slide Index
 let slideIndex = 0;
@@ -54,9 +56,10 @@ showSlides3();
 
 //Shows Slides on an Automated Timer
 function showSlides3() {
+    let i;
     let slides = document.getElementsByClassName("mySlides3");
-    for (i1 = 0; i1 < slides.length; i1++) {
-      slides[i1].style.display = "none";
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
     }
     slideIndex3++;
     if (slideIndex3 > slides.length) {slideIndex3 = 1}
