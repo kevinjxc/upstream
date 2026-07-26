@@ -1,4 +1,3 @@
-/*Hover Animation for Buttons and Interactive Elements*/
 button,
 .logoButton,
 .footerImage,
@@ -6,7 +5,6 @@ button,
     transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, background-color 0.25s ease;
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 button:hover,
 button:focus-visible,
 .homeTextbox .boxButton:hover,
@@ -17,7 +15,6 @@ button:focus-visible,
     box-shadow: 0 0.25rem 0.5rem rgba(0, 73, 148, 0.16);
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 .logoButton:hover,
 .logoButton:focus-visible,
 .footerImage:hover,
@@ -26,7 +23,6 @@ button:focus-visible,
     box-shadow: none;
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 .menu a {
     display: inline-block;
     padding: 0.25rem 0.35rem;
@@ -40,7 +36,6 @@ button:focus-visible,
     border: none;
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 .menu li:hover .item,
 .menu li:focus-within .item,
 .menu a:hover,
@@ -52,13 +47,11 @@ button:focus-visible,
     outline: none;
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 .menu a::selection {
     background: transparent;
     color: inherit;
 }
 
-/*Hover Animation for Buttons and Interactive Elements*/
 .menu a:focus,
 .menu a:focus-visible,
 .menu a:active {
@@ -68,20 +61,17 @@ button:focus-visible,
     border: none !important;
 }
 
-/*Sets Margins & Background Color*/
 body {
     background-color: #F2F2F2;
     margin: 2% 4% 2% 4%;
     overflow-x: hidden;
 }
 
-/*Color of Highlighted Text*/
 ::selection {
     color: #F2F2F2;
     background-color: #355BF2;
 }
 
-/*Formats All Heading 1 Text*/
 h1 {
     font-size: 1.5rem;
     text-align: center;
@@ -90,7 +80,6 @@ h1 {
     color: #355BF2;
 }
 
-/*Formats All Heading 2 Text*/
 h2 {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -100,7 +89,6 @@ h2 {
     font-family: Lexend Deca;
 }
 
-/*Formats All Heading 3 Text*/
 h3 {
     font-size: 1.5rem;
     text-align: center;
@@ -110,7 +98,6 @@ h3 {
     margin-bottom: 4rem;
 }
 
-/*Formats All Heading 4 Text*/
 h4 {
     text-align: center;
     font-size: 1.15rem;
@@ -120,7 +107,6 @@ h4 {
     font-family: Lexend Deca;
 }
 
-/*Formats All Heading 5 Text*/
 h5 {
     font-size: 1rem;
     text-align: center;
@@ -131,7 +117,6 @@ h5 {
     margin-bottom: 0.75rem;
 }
 
-/*Formats All Heading 6 Text*/
 h6 {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -142,12 +127,10 @@ h6 {
     color: #355BF2
 }
 
-/*Controls Scrollbar*/
 body::-webkit-scrollbar {
     width: 18px;
 }
 
-/*Controls Scrollbar*/
 ::-webkit-scrollbar-thumb {
     background-color: #B6B6B6;
     border-radius: 17px;
@@ -155,7 +138,6 @@ body::-webkit-scrollbar {
     background-clip: content-box;
 }
 
-/*Controls Scrollbar*/
 ::-webkit-scrollbar-thumb:hover {
     background-color: #A6A6A6;
     border-radius: 17px;
@@ -163,7 +145,6 @@ body::-webkit-scrollbar {
     background-clip: content-box;
 }
 
-/*Formats Homepage Images*/
 .homepageImages {
     width: 100%;
     display: block;
@@ -171,14 +152,12 @@ body::-webkit-scrollbar {
     margin-right: auto;
 }
 
-/*Places Spaces Between Tabs of Navigation Bar*/
 .navigation {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
 }
 
-/*Allows Overall Logo to Function in Navigation Bar*/
 .logoButton {
     display: block;
     margin-right: auto;
@@ -188,12 +167,10 @@ body::-webkit-scrollbar {
     width: 25rem;
 }
 
-/*Sizes Logo Image*/
 .logoImage {
     width: 25rem;
 }
 
-/*Formats Menu Tabs in Navigation Bar*/
 .menu ul {
     display: flex;
     list-style: none;
@@ -202,13 +179,11 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-/*Formats Menu Tabs in Navigation Bar*/
 .menu li {
     padding: 2rem;
     font-size: 1.25rem;
 }
 
-/*Formats Program Boxes*/
 .programsBox {
     display: flex;
     align-items: center;
@@ -216,7 +191,6 @@ body::-webkit-scrollbar {
     margin-bottom: 7rem;
 }
 
-/*Boxes for Each Homepage Category*/
 .homeTextbox {
     height: 21rem;
     width: 55%;
@@ -227,7 +201,6 @@ body::-webkit-scrollbar {
     background-color: #F2F2F2;
 }
 
-/*Styles & Positions Homepage Buttons*/
 .homeTextbox .boxButton {
     width: 17rem;
     height: 2.4rem;
@@ -252,7 +225,6 @@ body::-webkit-scrollbar {
     -ms-transform: translate(-50%, -50%) translateY(-0.15rem) scale(1.02);
 }
 
-/*Allows Logo Icon to Function at Footer*/
 .footerImage {
     width: 7rem;
     height: 7rem;
@@ -262,60 +234,50 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-/*Footer for Website*/
 .footer {
     margin-top: 2rem;
 }
 
-/*Formats Links in Menu*/
 .menu a:link {
     color: #355BF2;
     text-decoration: none;
 }
 
-/*Formats Links in Menu After Visited*/
 .menu a:visited {
     color: #355BF2;
     text-decoration: none;
 }
 
-/*Formats Links in Menu After Hovered*/
 .menu a:hover {
     color: #AEE155;
     text-decoration: none;
 }
 
-/*Formats Links in Menu When Clicked*/
 .menu a:active {
     color: #355BF2;
     text-decoration: none;
 }
 
-/*Formats Links in Program Buttons*/
 .programsBox .text:link {
     color: #F2F2F2;
     text-decoration: none;
 }
 
-/*Formats Links in Menu After Program Buttons*/
 .programsBox .text:visited {
     color: #F2F2F2;
     text-decoration: none;
 }
 
-/*Formats Links in Menu After Program Buttons*/
 .programsBox .text:hover {
     color: #AEE155;
     text-decoration: none;
 }
 
-/*Formats Links for Program Buttons*/
 .programsBox .text:active {
     color: #F2F2F2;
     text-decoration: none;
 }
 
-/*Formats Student Application Form*/
 .application-widget {
     display: block;
     margin-left: auto;
@@ -326,7 +288,6 @@ body::-webkit-scrollbar {
     z-index: 0;
 }
 
-/*Formats Tutor Application Form*/
 .volunteer-widget {
     display: block;
     margin-left: auto;
@@ -337,7 +298,6 @@ body::-webkit-scrollbar {
     z-index: 0;
 }
 
-/*Formats Contact Form*/
 .contactForm {
     width: 100%;
     height: 50rem;
@@ -346,7 +306,6 @@ body::-webkit-scrollbar {
     margin-right: auto;
 }
 
-/*Formats Contact Boxes*/
 .contactContainer {
     display: flex;
     align-items: center;
@@ -354,7 +313,6 @@ body::-webkit-scrollbar {
     margin-bottom: 1rem;
 }
 
-/*Creates Boxes for Each Contact Piece*/
 .contactBoxes {
     height: 10rem;
     width: 21rem;
@@ -368,7 +326,6 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-/*Allows Icons to Function in Contact Boxes*/
 .contactImage {
     width: 5.25rem;
     height: 5.25rem;
@@ -378,7 +335,6 @@ body::-webkit-scrollbar {
     margin-right: auto;
 }
 
-/*Formats STREAM Header*/
 .streamHeader {
     display: block;
     margin-left: auto;
@@ -388,7 +344,6 @@ body::-webkit-scrollbar {
     margin-bottom: -1rem;
 }
 
-/*Formats STREAM Facts*/
 .streamFacts {
     display: flex;
     margin-right: auto;
@@ -397,7 +352,6 @@ body::-webkit-scrollbar {
     margin-bottom: 5rem;
 }
 
-/*Formats STREAM Text*/
 .streamText {
     height: 17.25rem;
     width: 49.25%;
@@ -408,21 +362,18 @@ body::-webkit-scrollbar {
     padding-right: 0.5rem;
 }
 
-/*Boxes to Surroung Left/Right Text-to-Image Formation*/
 .surroundingBox {
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*Moves Images to the Left Side*/
 .leftImage {
     border-radius: 0.75rem;
     height: 22rem;
     margin-bottom: 5rem;
 }
 
-/*Formats Buttons Under Textboxes*/
 .surroundingBox .boxButton {
     background-color: #355BF2;
     border-radius: 0.75rem;
@@ -437,31 +388,26 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-/*Formats Links in Buttons After Hovered*/
 .surroundingBox .boxButton a:link {
     color: #F2F2F2;
     text-decoration: none;
 }
 
-/*Formats Links in Buttons After Hovered*/
 .surroundingBox .boxButton a:visited {
     color: #F2F2F2;
     text-decoration: none;
 }
 
-/*Formats Links in Buttons After Hovered*/
 .surroundingBox .boxButton a:hover {
     color: #AEE155;
     text-decoration: none;
 }
 
-/*Formats Hamburger in Responsive Mode*/
 .hamburger {
     display: none;
     cursor: pointer;
 }
 
-/*Formats Links in Hamburger*/
 .bar {
     display: block;
     width: 1.5625rem;
@@ -473,7 +419,6 @@ body::-webkit-scrollbar {
     border-radius: 4rem;
 }
 
-/*Slideshow Container*/
 .slideshow-container {
     width: 42%;
     position: relative;
@@ -483,19 +428,16 @@ body::-webkit-scrollbar {
     margin-left: auto;
 }
 
-/*Fading Animation*/
 .fade {
     animation-name: fade;
     animation-duration: 1s;
 }
 
-/*Formats Fading Animation*/
 @keyframes fade {
     from {opacity: 0.7}
     to {opacity: 1}
 }
 
-/*Responsiveness Code at 1275 Pixels Wide*/
 @media (max-width: 1275px) {
     h1 {
         margin-left: -4rem;
@@ -590,7 +532,6 @@ body::-webkit-scrollbar {
     }
 }
 
-/*Responsiveness Code at 715 Pixels Wide*/
 @media (max-width: 715px) {
     h3 {
         margin-left: 1rem;
@@ -661,7 +602,7 @@ body::-webkit-scrollbar {
     .hamburger.active .bar:nth-child(1){
         transform: translateY(0.5rem) rotate(45deg);
     }
-
+    
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-0.5rem) rotate(-45deg);
     }
@@ -710,7 +651,7 @@ body::-webkit-scrollbar {
         width: 100%;
         margin-bottom: 1rem;
     }
-
+    
     .homepageImages {
         width: 100%;
     }

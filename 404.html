@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--Tab Title & Icon-->
         <title>404 | UpSTREAM</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicon.png">
-
-        <!--Allows Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--Imports Lexend & Lexend Deca Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
-
-        <!--Adds Style to HTML Components-->
+        
         <style>
             .error-container {
                 display: flex;
@@ -26,7 +20,6 @@
                 text-align: center;
                 margin: 1rem 0;
             }
-
             .error-code {
                 font-size: 4rem;
                 font-weight: bold;
@@ -34,7 +27,6 @@
                 font-family: Lexend;
                 margin: 0;
             }
-
             .error-message {
                 font-size: 1.5rem;
                 color: #355BF2;
@@ -45,14 +37,11 @@
     </head>
 
     <body>
-        <!--Overall Navigation Bar-->
         <nav class="navigation">
-            <!--Logo & Title Button in Navigation Bar-->
             <button class="logoButton">
                 <a href="https://www.upstreamprogram.org/"><img class="logoImage" src="logoButton.webp" alt="logo"><img></a>
             </button>
 
-            <!--Displays Various Website Tabs in Navigation Bar-->
             <div class="menu">
                 <ul>
                     <li><a class="item" href="./about">About</a></li>
@@ -63,7 +52,6 @@
                 </ul>
             </div>
 
-            <!--Creates Hamburger for Navigation Bar-->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -71,19 +59,16 @@
             </div>
         </nav>
 
-        <!--Error Content-->
         <div class="error-container">
             <h1 class="error-code">404</h1>
             <h2 class="error-message">Page Not Found</h2>
         </div>
 
-        <!--Creates Website Footer-->
         <div class="footer">
             <img class="footerImage" src="logo.webp" alt="logo" onclick="pageIndex()"><img>
             <h4 style="color: #355BF2;">© <span class="current-year"></span> UpSTREAM Program</h4>
         </div>
-
-        <!--Applies JavaScript-->
+        
         <script src="script.js"></script>
     </body>
 </html>

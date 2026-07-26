@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--Tab Title & Favicon-->
         <title>Contact | UpSTREAM</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicon.png">
-
-        <!--Allows Responsiveness-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--Imports Lexend & Lexend Deca Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend" rel="stylesheet">
@@ -17,14 +12,11 @@
     </head>
 
     <body>
-        <!--Overall Navigation Bar-->
         <nav class="navigation">
-            <!--Logo & Title Button in Navigation Bar-->
             <button class="logoButton">
                 <a href="https://www.upstreamprogram.org/"><img class="logoImage" src="logoButton.webp" alt="logo"><img></a>
             </button>
 
-            <!--Displays Various Website Tabs in Navigation Bar-->
             <div class="menu">
                 <ul>
                     <li><a class="item" href="./about">About</a></li>
@@ -35,45 +27,36 @@
                 </ul>
             </div>
 
-            <!--Creates Hamburger for Navigation Bar-->
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
         </nav>
-
-        <!--Creates Container for Contact Boxes-->
         <div class="contactContainer">
-            <!--Creates Boxes for Email Address-->
             <div class="contactBoxes" onclick="pageEmail()">
                 <h5>upstreamprogram@gmail.com</h5>
                 <img class="contactImage" src="email.webp" alt="email"><img>
             </div>
 
-            <!--Creates Boxes for Phone Number-->
             <div class="contactBoxes" onclick="pagePhone()">
                 <h5>+1 (206) 486-4950</h5>
                 <img class="contactImage" src="phone.webp" alt="phone"><img>
             </div>
 
-            <!--Creates Boxes for Location-->
             <div class="contactBoxes" onclick="pageLocation()">
                 <h5>Seattle, Washington</h5>
                 <img class="contactImage" src="location.webp" alt="location"><img>
             </div>
         </div>
 
-        <!--Embeds Contact Form From Google-->
         <iframe class="contactForm" src="https://docs.google.com/forms/d/e/1FAIpQLSdRsHVOvWRkGRQkjoefkUhYKu3M5XaXn4tVfB7_RHJ4z4SrGA/viewform?embedded=true" frameborder="0">Loading…</iframe>
-
-        <!--Creates Website Footer-->
+        
         <div class="footer">
             <img class="footerImage" src="logo.webp" alt="logo" onclick="pageIndex()"><img>
             <h4 style="color: #355BF2;">© <span class="current-year"></span> UpSTREAM Program</h4>
         </div>
-
-        <!--Applies JavaScript-->
+        
         <script src="script.js"></script>
     </body>
 </html>
