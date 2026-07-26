@@ -1,7 +1,8 @@
 button,
 .logoButton,
 .footerImage,
-.menu a {
+.menu a,
+.contactBoxes {
     transition: transform 0.25s ease, box-shadow 0.25s ease, color 0.25s ease, background-color 0.25s ease;
 }
 
@@ -18,9 +19,17 @@ button:focus-visible,
 .logoButton:hover,
 .logoButton:focus-visible,
 .footerImage:hover,
-.footerImage:focus-visible {
+.footerImage:focus-visible,
+.contactBoxes:hover,
+.contactBoxes:focus-visible {
     transform: translateY(-0.08rem) scale(1.01);
     box-shadow: none;
+}
+
+.contactBoxes:hover,
+.contactBoxes:focus-visible {
+    transform: translateY(-0.15rem) scale(1.02);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 73, 148, 0.16);
 }
 
 .menu a {
@@ -268,7 +277,10 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-.programsBox .text:hover {
+.homeTextbox .boxButton:hover .text,
+.homeTextbox .boxButton:focus-visible .text,
+.surroundingBox .boxButton:hover .text,
+.surroundingBox .boxButton:focus-visible .text {
     color: #AEE155;
     text-decoration: none;
 }
@@ -399,6 +411,12 @@ body::-webkit-scrollbar {
 }
 
 .surroundingBox .boxButton a:hover {
+    color: #AEE155;
+    text-decoration: none;
+}
+
+.surroundingBox .boxButton:hover .text,
+.surroundingBox .boxButton:focus-visible .text {
     color: #AEE155;
     text-decoration: none;
 }
